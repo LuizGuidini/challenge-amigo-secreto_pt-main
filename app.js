@@ -113,3 +113,17 @@ function sortearAmigo() {
         resultado.appendChild(item);
     }
 }
+
+//limpar lista
+function limparLista() {
+    if (amigos.length === 0) {
+        alert("A lista já está vazia!");
+        return;
+    }
+
+    if (confirm("Tem certeza que deseja limpar a lista?")) {
+        amigos = [];
+        atualizarLista();
+        document.getElementById("resultado").innerHTML = "";
+    }
+}

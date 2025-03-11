@@ -166,3 +166,18 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.button-clear {
+    background-color:var(--color-button);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.button-clear:hover {
+    background-color: darkred;
+}
