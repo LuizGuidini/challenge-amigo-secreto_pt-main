@@ -60,6 +60,7 @@ function adicionarAmigo() {
 
     inputNome.value = ""; // Limpa o campo de entrada após adicionar
 }
+```
 
 ### 2. **Atualizando a Lista de Amigos**
 A função **atualizarLista()** atualiza a lista visual de amigos na página HTML. Ela percorre o array `amigos` e adiciona cada nome como um item `<li>` dentro de uma lista HTML.
@@ -75,6 +76,7 @@ function atualizarLista() {
         lista.appendChild(item); // Adiciona o item à lista
     });
 }
+```
 
 ### 3. **Sortear 1 Amigo Secreto**
 A função sortearUmAmigo() escolhe aleatoriamente um amigo da lista e mostra o resultado em um alerta.
@@ -91,6 +93,8 @@ function sortearUmAmigo() {
 
     alert(`🎉 O amigo sorteado é: ${amigoSorteado}`); // Exibe o resultado em um alerta
 }
+```
+
 ### 4. **Sortear Todos os Amigos Secretos**
 A função sortearAmigo() embaralha a lista de amigos e realiza o sorteio de todos ao mesmo tempo, exibindo quem vai dar presente para quem.
 
@@ -112,6 +116,7 @@ function sortearAmigo() {
         resultado.appendChild(item); // Adiciona ao resultado na página
     }
 }
+```
 
 ### 5. **Limpar Lista**
 A função limparLista() limpa todos os nomes da lista e reseta a aplicação.
@@ -129,6 +134,7 @@ function limparLista() {
         document.getElementById("resultado").innerHTML = ""; // Limpa os resultados
     }
 }
+```
 
 ## 📌 **Tecnologias Usadas**
 - **HTML**: Estrutura básica da página.
