@@ -143,6 +143,12 @@ ul {
 }
 
 /* Botão de sortear título */
+.button-container {
+    display: flex; 
+    justify-content: center;
+    gap: 10px;
+}
+
 .button-draw {
     display: flex;
     align-items: center;
